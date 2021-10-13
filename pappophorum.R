@@ -16,8 +16,7 @@ library(raster)
 
 ### Importando e lendo sua planilha no ambiente R. read.csv é uma função para ler a extensão .csv. NO argumento "file" coloque o caminho relativo do arquivo .csv , no arquivo "sep" indique qual o tipo de separado dos campos (o que separa as colunas).
 
-sp_input <-
-  read.csv(file = "./dados/ocorrencias/sp_input_pappiferum.csv", sep = ",")
+sp_input <-  read.csv(file = "./dados/ocorrencias/teste.csv", sep = ",")
 
 ## Colocando no formato exigido pelo pacote: species name separated by "_"
 sp_input$species <-
